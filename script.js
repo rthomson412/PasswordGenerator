@@ -52,6 +52,17 @@ if (charString.length > 0) {
   }
 }
 
+var generatePassword = function() {
+  
+    // setting character length
+    var charLength = prompt('How long would you like your password to be?  Please enter a number between "8" and "128".');
+    charLength = parseInt(charLength);
+    console.log('Character length is ' + charLength);
+    
+    if (isNaN(charLength) || charLength < 8 || charLength > 128) {
+      return generatePassword();
+    }
+  
 
 
 
