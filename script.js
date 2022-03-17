@@ -7,7 +7,7 @@ var charChoice = function() {
 var charNum = confirm('Should password contain numbers?');
 
 if (charNum) {
-    charnum = "0123456789";}
+    charNum = "0123456789";}
         else {
             charNum = "";}
 
@@ -56,7 +56,7 @@ if (charString.length > 0) {
 var generatePassword = function() {
   
     // setting character length
-    var charLength = prompt('How long would you like your password to be?  Please enter a number between "8" and "128".');
+    var charLength = prompt('How many characters would you like your password to have?  Please enter a number between 8 and 12.');
     charLength = parseInt(charLength);
     console.log('Character length is ' + charLength);
     
@@ -85,39 +85,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-}
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
-
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
 }
 
 // Add event listener to generate button
