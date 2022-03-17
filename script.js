@@ -63,7 +63,17 @@ var generatePassword = function() {
       return generatePassword();
     }
   
-
+    // generates password based on selected criteria
+    var charSet = charChoice();
+    var PASSWORD = "";
+    
+    for (var i = 0, n = charSet.length; i < charLength; i++) {
+      PASSWORD += charSet[Math.floor(Math.random() * n)];
+    }
+    console.log("Generated password is " + PASSWORD);
+    
+    return PASSWORD;
+  }
 
 
 
