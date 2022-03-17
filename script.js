@@ -42,6 +42,7 @@ if (charUpp) {
 
 var charString = charNum + speChar + charLow + charUpp
 
+
 // validates that at least one character type is selected
 if (charString.length > 0) {
     console.log("Character string is " + charString);
@@ -74,6 +75,20 @@ var generatePassword = function() {
     
     return PASSWORD;
   }
+
+// Get references to the #generate element
+var generateBtn = document.querySelector("#generate");
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+}
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
 
 
 
