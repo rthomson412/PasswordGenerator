@@ -5,15 +5,16 @@ Creates a randomly generated password. User chooses character type(s) and charac
 
 ## Features
 * Allows the user to select a password length between 8 and 128 characters long.
-  * Will not allow users to select non-integers.
+  * Will only allow users to select an appropriate number length.
 * Allows the user to select one, multiple or all of the following character types:
-  * Lowercase characters
-  * Uppercase characters
   * Numbers
   * Special characters
+  * Lowercase characters
+  * Uppercase characters
 
 ## Deployed website
-
+https://rthomson412.github.io/PasswordGenerator/
 
 ## Screenshot
+
 
