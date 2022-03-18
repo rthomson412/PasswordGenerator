@@ -16,4 +16,5 @@ Creates a randomly generated password. User chooses character type(s) and charac
 https://rthomson412.github.io/PasswordGenerator/
 
 ## Screenshot
+![image](https://user-images.githubusercontent.com/96792780/158996602-bec3d698-ecff-4397-89fb-15604388ae24.png)
 
