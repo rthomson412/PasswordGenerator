@@ -17,4 +17,3 @@ https://rthomson412.github.io/PasswordGenerator/
 
 ## Screenshot
 
-
